@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import { useAppContext } from "@/context/AppContext";
 import { Task } from "@/ts/interfaces";
