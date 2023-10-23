@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 "use client";
 import { useAppContext } from "@/context/AppContext";
 import { Task } from "@/ts/interfaces";
@@ -23,7 +22,7 @@ function TaskCard({ task, index }: Props) {
         </p>
         <div className="text-lg sm:text-xl text-gray-200">
           <p className="flex gap-5 items-center">
-            It's completed?
+            Is it completed?
             <span
               className={`${
                 task.completed ? "text-green-600" : "text-red-600"
