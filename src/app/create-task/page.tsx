@@ -72,7 +72,7 @@ function CreateTaskPage({ params }: Props) {
               htmlFor="completed"
               className="text-xl sm:text-2xl font-medium"
             >
-              It's completed?
+              Is it completed?
             </label>
             <input
               type="checkbox"
